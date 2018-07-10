@@ -1,6 +1,20 @@
 plugin:
-    name: 'studio98.band::lang.plugin.name'
-    description: 'studio98.band::lang.plugin.description'
+    name: BBF
+    description: 'BBF plugins'
     author: Studio98
     icon: oc-icon-music
     homepage: ''
+navigation:
+    main-menu-item:
+        label: BBF
+        url: studio98/band/bands
+        icon: icon-globe
+        sideMenu:
+            side-menu-item:
+                label: Bands
+                url: studio98/band/bands
+                icon: icon-users
+            side-menu-item2:
+                label: 'Video Link'
+                url: studio98/band/videos
+                icon: icon-video-camera

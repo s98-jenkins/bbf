@@ -1,2 +1,11 @@
 1.0.1:
-    - Initialize plugin.
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table studio98_band_'
+    - builder_table_create_studio98_band_.php
+1.0.3:
+    - 'Created table studio98_band_video'
+    - builder_table_create_studio98_band_video.php
+1.0.4:
+    - 'Updated table studio98_band_video'
+    - builder_table_update_studio98_band_video.php

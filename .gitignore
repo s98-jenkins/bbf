@@ -1,2 +1,10 @@
+
+/storage/cms/
+/storage/cms/cache/**/*
+/storage/framework/
+*/storage/framework/sessions/*
+*/storage/framework/cache/**/*
+/storage/logs/
+/storage/*.key
 .DS_Store
 *.log
