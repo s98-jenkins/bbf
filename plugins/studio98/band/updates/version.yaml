@@ -9,3 +9,21 @@
 1.0.4:
     - 'Updated table studio98_band_video'
     - builder_table_update_studio98_band_video.php
+1.0.5:
+    - 'Created table studio98_band_press'
+    - builder_table_create_studio98_band_press.php
+1.0.6:
+    - 'Created table studio98_band_sponsor'
+    - builder_table_create_studio98_band_sponsor.php
+1.0.7:
+    - 'Updated table studio98_band_sponsor'
+    - builder_table_update_studio98_band_sponsor.php
+1.0.8:
+    - 'Created table studio98_band_partner'
+    - builder_table_create_studio98_band_partner.php
+1.0.9:
+    - 'Updated table studio98_band_partner'
+    - builder_table_update_studio98_band_partner.php
+1.0.10:
+    - 'Updated table studio98_band_partner'
+    - builder_table_update_studio98_band_partner_2.php

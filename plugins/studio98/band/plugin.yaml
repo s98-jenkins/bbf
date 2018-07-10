@@ -18,3 +18,15 @@ navigation:
                 label: 'Video Link'
                 url: studio98/band/videos
                 icon: icon-video-camera
+            side-menu-item3:
+                label: 'Press Link'
+                url: studio98/band/presses
+                icon: icon-link
+            side-menu-item4:
+                label: Sponsor
+                url: studio98/band/sponsors
+                icon: icon-dollar
+            side-menu-item5:
+                label: Partners
+                url: studio98/band/partners
+                icon: icon-trophy

@@ -135,4 +135,9 @@
   'RainLab\\Builder\\FormWidgets\\ControllerBuilder' => 'plugins\\rainlab\\builder\\formwidgets\\ControllerBuilder.php',
   'studio98\\band\\Controllers\\bands' => 'plugins\\studio98\\band\\controllers\\bands.php',
   'Studio98\\Band\\Models\\Band' => 'plugins\\studio98\\band\\models\\Band.php',
+  'studio98\\band\\Controllers\\videos' => 'plugins\\studio98\\band\\controllers\\videos.php',
+  'Studio98\\Band\\Models\\Video' => 'plugins\\studio98\\band\\models\\Video.php',
+  'studio98\\band\\Controllers\\sponsors' => 'plugins\\studio98\\band\\controllers\\sponsors.php',
+  'Studio98\\Band\\Models\\Sponsor' => 'plugins\\studio98\\band\\models\\Sponsor.php',
+  'backend\\Controllers\\preferences' => 'modules\\backend\\controllers\\preferences.php',
 );

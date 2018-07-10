@@ -1,10 +1,13 @@
 
-/storage/cms/
-/storage/cms/cache/**/*
-/storage/framework/
+storage/cms/
+storage/cms/disabled.json
+storage/cms/cache/**/*
+storage/framework/
+storage/app/
+storage/framework/classes.php
 */storage/framework/sessions/*
 */storage/framework/cache/**/*
-/storage/logs/
-/storage/*.key
+storage/logs/
+storage/*.key
 .DS_Store
 *.log
