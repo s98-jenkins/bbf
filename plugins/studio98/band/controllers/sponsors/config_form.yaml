@@ -1,0 +1,10 @@
+name: Sponsors
+form: $/studio98/band/models/sponsor/fields.yaml
+modelClass: Studio98\Band\Models\Sponsor
+defaultRedirect: studio98/band/sponsors
+create:
+    redirect: 'studio98/band/sponsors/update/:id'
+    redirectClose: studio98/band/sponsors
+update:
+    redirect: studio98/band/sponsors
+    redirectClose: studio98/band/sponsors

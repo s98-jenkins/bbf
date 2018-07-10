@@ -1,0 +1,10 @@
+name: Bands
+form: $/studio98/band/models/band/fields.yaml
+modelClass: Studio98\Band\Models\Band
+defaultRedirect: studio98/band/bands
+create:
+    redirect: 'studio98/band/bands/update/:id'
+    redirectClose: studio98/band/bands
+update:
+    redirect: studio98/band/bands
+    redirectClose: studio98/band/bands

@@ -1,0 +1,4 @@
+title: Partners
+modelClass: Studio98\Band\Models\Partner
+toolbar:
+    buttons: reorder_toolbar

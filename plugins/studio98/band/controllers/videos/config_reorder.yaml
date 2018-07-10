@@ -1,0 +1,4 @@
+title: Videos
+modelClass: Studio98\Band\Models\Video
+toolbar:
+    buttons: reorder_toolbar

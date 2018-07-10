@@ -1,0 +1,33 @@
+fields:
+    name:
+        label: 'Name Band'
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    description:
+        label: Description
+        size: ''
+        span: full
+        type: richeditor
+    video:
+        label: Video
+        span: auto
+        placeholder: 'https://youtu.be/IbmOgRTN8ek'
+        type: text
+    poster:
+        label: Poster
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

@@ -1,0 +1,4 @@
+title: Presses
+modelClass: Studio98\Band\Models\Press
+toolbar:
+    buttons: reorder_toolbar

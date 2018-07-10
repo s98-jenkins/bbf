@@ -1,0 +1,10 @@
+name: Videos
+form: $/studio98/band/models/video/fields.yaml
+modelClass: Studio98\Band\Models\Video
+defaultRedirect: studio98/band/videos
+create:
+    redirect: 'studio98/band/videos/update/:id'
+    redirectClose: studio98/band/videos
+update:
+    redirect: studio98/band/videos
+    redirectClose: studio98/band/videos

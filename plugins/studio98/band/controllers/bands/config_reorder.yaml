@@ -1,0 +1,4 @@
+title: Bands
+modelClass: Studio98\Band\Models\Band
+toolbar:
+    buttons: reorder_toolbar

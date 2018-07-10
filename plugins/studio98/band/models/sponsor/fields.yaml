@@ -1,0 +1,30 @@
+fields:
+    name:
+        label: Name
+        span: left
+        type: text
+    category:
+        label: Category
+        options:
+            Platinium: P
+            Gold: G
+            Silver: S
+            Bronze: B
+        span: right
+        type: dropdown
+    resume:
+        label: Resume
+        size: ''
+        span: full
+        type: textarea
+    logo:
+        label: Logo
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        imageWidth: '100'
+        imageHeight: '100'
+        type: fileupload

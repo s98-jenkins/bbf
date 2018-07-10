@@ -1,0 +1,16 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        required: 1
+        type: text
+    link:
+        label: 'Link Video'
+        span: auto
+        required: 1
+        type: text
+    resume:
+        label: Description
+        size: ''
+        span: full
+        type: textarea

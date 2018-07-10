@@ -1,0 +1,10 @@
+name: Presses
+form: $/studio98/band/models/press/fields.yaml
+modelClass: Studio98\Band\Models\Press
+defaultRedirect: studio98/band/presses
+create:
+    redirect: 'studio98/band/presses/update/:id'
+    redirectClose: studio98/band/presses
+update:
+    redirect: studio98/band/presses
+    redirectClose: studio98/band/presses

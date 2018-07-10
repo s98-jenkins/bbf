@@ -1,0 +1,12 @@
+list: $/studio98/band/models/video/columns.yaml
+modelClass: Studio98\Band\Models\Video
+title: Videos
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'studio98/band/videos/update/:id'

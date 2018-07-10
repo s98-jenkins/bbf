@@ -1,0 +1,8 @@
+columns:
+    name:
+        label: Band
+        type: text
+        searchable: true
+    video:
+        label: Video
+        type: text
