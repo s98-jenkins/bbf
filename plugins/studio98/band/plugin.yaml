@@ -1,0 +1,6 @@
+plugin:
+    name: 'studio98.band::lang.plugin.name'
+    description: 'studio98.band::lang.plugin.description'
+    author: Studio98
+    icon: oc-icon-music
+    homepage: ''
