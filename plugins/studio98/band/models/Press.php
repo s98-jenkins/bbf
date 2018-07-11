@@ -25,4 +25,10 @@ class Press extends Model
      * @var string The database table used by the model.
      */
     public $table = 'studio98_band_press';
+
+     public $attachOne = [
+
+        'poster' => 'System\Models\File'
+
+    ];
 }

@@ -10,11 +10,6 @@ fields:
             field: name
             type: slug
         type: text
-    description:
-        label: Description
-        size: ''
-        span: full
-        type: richeditor
     video:
         label: Video
         span: auto
@@ -31,3 +26,8 @@ fields:
             extension: auto
         span: auto
         type: fileupload
+    description:
+        label: Description
+        size: ''
+        span: full
+        type: richeditor
