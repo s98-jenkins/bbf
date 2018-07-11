@@ -1,0 +1,16 @@
+title = "Video Links"
+url = "/video-links"
+layout = "titled-with-sidebar"
+is_hidden = 0
+
+[builderList]
+modelClass = "Studio98\Band\Models\Video"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}

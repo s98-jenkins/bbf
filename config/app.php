@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'http://studio98.local/bajabluesfest/',
+    'url' => env('APP_URL', 'http://studio98.local/bajabluesfest/'),
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'key' => 'dOSmqf7W5AV2fljRneHg3Fn6pLsZ9WQI',
+    'key' => env('APP_KEY', ''),
 
     'cipher' => 'AES-256-CBC',
 
