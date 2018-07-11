@@ -1,0 +1,13 @@
+name: 'Main menu'
+items:
+    -
+        title: Buzz
+        nesting: '0'
+        type: static-page
+        code: ''
+        reference: buzz
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

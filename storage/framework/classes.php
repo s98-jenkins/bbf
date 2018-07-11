@@ -140,6 +140,7 @@
   'studio98\\band\\Controllers\\sponsors' => 'plugins\\studio98\\band\\controllers\\sponsors.php',
   'Studio98\\Band\\Models\\Sponsor' => 'plugins\\studio98\\band\\models\\Sponsor.php',
   'backend\\Controllers\\preferences' => 'modules\\backend\\controllers\\preferences.php',
+<<<<<<< HEAD
   'System\\Classes\\PluginManager' => 'modules/system/classes/PluginManager.php',
   'System\\Classes\\PluginBase' => 'modules/system/classes/PluginBase.php',
   'System\\Classes\\ComposerManager' => 'modules/system/classes/ComposerManager.php',
@@ -154,4 +155,15 @@
   'Cms\\Classes\\CmsController' => 'modules/cms/classes/CmsController.php',
   'System\\Models\\EventLog' => 'modules/system/models/EventLog.php',
   'System\\Classes\\ErrorHandler' => 'modules/system/classes/ErrorHandler.php',
+=======
+  'studio98\\band\\Controllers\\presses' => 'plugins\\studio98\\band\\controllers\\presses.php',
+  'Studio98\\Band\\Models\\Press' => 'plugins\\studio98\\band\\models\\Press.php',
+  'RainLab\\Translate\\FormWidgets\\MLText' => 'plugins\\rainlab\\translate\\formwidgets\\MLText.php',
+  'RainLab\\Translate\\FormWidgets\\MLTextarea' => 'plugins\\rainlab\\translate\\formwidgets\\MLTextarea.php',
+  'AnandPatel\\WysiwygEditors\\FormWidgets\\Editor' => 'plugins\\anandpatel\\wysiwygeditors\\formwidgets\\Editor.php',
+  'RainLab\\Pages\\FormWidgets\\MenuItems' => 'plugins\\rainlab\\pages\\formwidgets\\MenuItems.php',
+  'RainLab\\Pages\\Classes\\MenuItem' => 'plugins\\rainlab\\pages\\classes\\MenuItem.php',
+  'Rainlab\\Pages\\FormWidgets\\MenuItemSearch' => 'plugins\\rainlab\\pages\\formwidgets\\MenuItemSearch.php',
+  'RainLab\\Builder\\Classes\\ComponentHelper' => 'plugins\\rainlab\\builder\\classes\\ComponentHelper.php',
+>>>>>>> 6bfb617328879c8c9f70e81f728721f2152dc512
 );
