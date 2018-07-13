@@ -1,0 +1,28 @@
+title = "Volunteer Form"
+url = "/volunteer-form"
+layout = "default-with-sidebar"
+is_hidden = 0
+
+[emptyForm]
+rules[organization] = "a"
+rules[name] = "required"
+messages_success = "Your form was successfully submitted"
+messages_errors = "There were errors with your submission"
+reset_form = 1
+inline_errors = "display"
+sanitize_data = "htmlspecialchars"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+==
+<h3>Here goes your custom form</h3>
+<p>Override HTML by creating a new partial called <strong>default.htm</strong> (more info <a href="https://octobercms.com/docs/cms/components#overriding-partials" target="_blank">here</a>)</p>
+<p>You can copy/paste this basic template:</p>
+<form data-request="{{ emptyForm }}::onFormSubmit">
+        {{ form_token() }}
+        <div id="{{ emptyForm }}_forms_flash"></div>
+        <!-- YOUR FORM FIELDS -->
+        
+        <!-- SUBMIT BUTTON -->
+    </form>
