@@ -2,7 +2,6 @@
 snippetCode = "contact"
 snippetName = "Contact section"
 
-[simpleContact]
 displayPhone = 0
 ==
 <div class="section frontpage-open1 bg-white" id="open">
@@ -29,33 +28,8 @@ displayPhone = 0
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <h4>{{ 'section.contact.form' | _ }}</h4>
-                    <div role="form" class="wpcf7" id="wpcf7-f400-o1">
-                        {{ simpleContact.settings.text_top_form | raw }}
-                        <form id="simpleContactForm" method="post" data-request="{{ simpleContact }}::onFormSubmit">
-                            <div class="screen-reader-response" id="simple_contact_flash_message"></div>
-                            <div class="form-group">
-                                <span class="wpcf7-form-control-wrap">
-                                    <input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="{{ 'section.contact.name' | _ }}" />
-                                </span>
-                            </div>
-                            <div class="form-group">
-                                <span class="wpcf7-form-control-wrap">
-                                    <input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="{{ 'section.contact.email' | _ }}" />
-                                </span>
-                            </div>
-                            <div class="form-group">
-                                <span class="wpcf7-form-control-wrap">
-                                    <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false" placeholder="{{ 'section.contact.message' | _ }}"></textarea>
-                                </span>
-                            </div>
-                            <div class="form-action">
-                                <input type="hidden" name="subject" value="{{ baseUrl }}" />
-                                <input type="submit" value="{{ 'section.contact.button' | _ }}" class="wpcf7-form-control wpcf7-submit btn btn-primary-custom btn-block btn-lg" />
-                            </div>
-                            <div class="wpcf7-response-output wpcf7-display-none"></div>
-                        </form>
-                    </div>
+ 
+
                 </div>
             </div>
         </div>

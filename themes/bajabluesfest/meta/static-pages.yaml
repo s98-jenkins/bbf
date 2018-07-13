@@ -1,4 +1,16 @@
 static-pages:
     homepage: {  }
     buzz: {  }
-    travel: {  }
+    travel:
+        travel-travel-trips: {  }
+        travel-driving-directions: {  }
+        travel-rosarito-beach-hotel: {  }
+    about-us: {  }
+    join-us:
+        join-us-volunteer:
+            join-us-volunteer-volunteer-information-sheet: {  }
+        join-us-vendor:
+            join-us-vendor-participant-rules: {  }
+        join-us-sponsor: {  }
+        join-us-participating-artist:
+            join-us-participating-artist-participant-rules: {  }
